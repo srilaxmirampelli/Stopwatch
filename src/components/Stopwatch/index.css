@@ -1,0 +1,116 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+}
+.main-heading {
+  color: #333333;
+  font-weight: bold;
+  font-size: 30px;
+}
+.stopwatch-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px 0 #bfbfbf;
+  width: 90vw;
+  padding: 20px;
+}
+.stopwatch-card-head-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-img {
+  width: 28px;
+  margin-right: 8px;
+}
+.stopwatch-card-heading {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 500;
+}
+.time {
+  color: #333333;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.stopwatch-card-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.stopwatch-card-btn {
+  border-width: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 19px;
+  padding-right: 19px;
+  cursor: pointer;
+  outline: none;
+}
+.stopwatch-card-btn:hover {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.green-btn {
+  background-color: #1db05f;
+}
+.red-btn {
+  background-color: #ef0d36;
+}
+.yellow-btn {
+  background-color: #eaa800;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-position: center;
+  }
+  .stopwatch-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    margin-left: 80px;
+  }
+  .stopwatch-card {
+    width: 40vw;
+  }
+  .main-heading {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-position: center;
+  }
+  .stopwatch-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    margin-left: 80px;
+  }
+  .stopwatch-card {
+    width: 32vw;
+  }
+  .main-heading {
+    font-size: 50px;
+  }
+}
